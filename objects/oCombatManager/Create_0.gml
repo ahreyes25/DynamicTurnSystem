@@ -9,7 +9,9 @@ blueTeam		= ds_list_create();
 intermediate	= ds_list_create();
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-// Add Teams to Team Manager
+// Add Teams to Team Manager, the order that these teams get added are
+// important as they will define the startng order for when you iterated
+// to next and previous teams. You can randomize this with ds_list_shuffle(teams);
 ds_list_add(teams, redTeam);
 ds_list_add(teams, blueTeam);
 ds_list_add(teams, intermediate);
