@@ -2,4 +2,4 @@
 // It should be removed, and this script should be called wherever it is appropriate
 // in your game. 
 
-NextPlayer();
+NextTeam();

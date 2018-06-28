@@ -1,15 +1,23 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // Check To See If We Are The Active Player
-if (oCombatManager.currentPlayerTurn == id)
+
+// This means that it is currenty this players turn...
+if (oCombatManager.currentPlayerTurn.id == id) {
 	active = true;
-else
+	
+	// Do whatever you want the player to do here when it is their turn:
+	//	- Move around
+	//	- State machine
+	//	- Networking
+	//	- Etc...
+}
+// This means that it is currently NOT this players turn...
+else {
 	active = false;
 	
-	
-/*
-// CHeck to see if it is our turn 
-if (oCombatManager.currentPlayerTurn.id == id) {
-	// It is our turn...
-	// Do stuff here
+	// Do whatever you want the player to do here when it is NOT their turn:
+	//	- Sit still and idle
+	//	- State machine
+	//	- Networking
+	//	- Etc...
 }
-*/
