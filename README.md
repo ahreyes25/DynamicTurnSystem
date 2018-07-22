@@ -1,8 +1,8 @@
-# TurnBasedCombatSystem
-This is a barebones, turn based combat system that implements a dynamic/modular design that can be implemented into any GameMaker project.
+# DynamicTurnSystem
+This is a barebones, turn based system that implements a dynamic/modular design that can be implemented into any GameMaker project.
 
 # How To Use
-A dynamic turn based combat system for GameMaker Studio 2 to create iterative teams, and the base-level framework for a large scale combat system. This project is designed to be dropped right into a new project, or into your existing project, and super quick to setup. Keep in mind that this asset doesn't focus on the combat elements, but instead, creates a very dynamic and flexible turn system that leaves you open to implement your own combat system into it. Designing an elegant and versatile turn system can be difficult sometimes, and so the goal of this project is to simplify that into an easy to use project. Feel free to use this in any of your games, and let me know if you have any suggestions or issues! Thanks.
+A dynamic turn based system for GameMaker Studio 2 to create iterative teams, and the base-level framework for a large scale combat system. This project is designed to be dropped right into a new project, or into your existing project, and super quick to setup. Keep in mind that this asset doesn't focus on the combat elements, but instead, creates a very dynamic and flexible turn system that leaves you open to implement your own combat system into it. Designing an elegant and versatile turn system can be difficult sometimes, and so the goal of this project is to simplify that into an easy to use project. Feel free to use this in any of your games, and let me know if you have any suggestions or issues! Thanks.
 
 How To Use: (see youtube video for more info)
 - Import Objects and Scripts Into Project
